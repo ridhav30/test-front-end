@@ -1,0 +1,40 @@
+{
+  "name": "rfc-common-fe",
+  "version": "1.0.0",
+  "description": "common-fe",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ridhav30/test-front-end.git"
+  },
+  "keywords": [
+    "common-package",
+    "common-package"
+  ],
+  "author": "Ridha V <ridhav30@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ridhav30/test-front-end.git/issues"
+  },
+  "homepage": "https://github.com/ridhav30/test-front-end.git#readme",
+  "devDependencies": {
+    "@types/morgan": "^1.9.9",
+    "typescript": "^4.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "@types/winston": "^2.4.4",
+    "dotenv": "^16.3.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.35.1",
+    "sequelize-typescript": "^2.1.6",
+    "winston": "^3.11.0"
+  }
+}
